@@ -1,8 +1,8 @@
 FROM node
 
-RUN git clone https://github.com/pieghost/tinypies
+RUN git clone https://github.com/pieghost/tinypies app
 
-WORKDIR tinypies
+WORKDIR app
 
 RUN npm install
 
