@@ -6,4 +6,6 @@ WORKDIR app
 
 RUN npm install
 
+VOLUME /app/public/uploads
+
 CMD ["npm", "start", "--production"]
