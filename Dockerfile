@@ -8,4 +8,6 @@ RUN npm install
 
 VOLUME /app/public/uploads
 
+EXPOSE 3000
+
 CMD ["npm", "start", "--production"]
